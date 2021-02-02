@@ -36,17 +36,17 @@
 
 		embedded_svc.init(
 			'https://ap16.salesforce.com',
-			'https://sellkorea.force.com',
+			'https://webchats.secure.force.com/liveAgentSetupFlow',
 			gslbBaseURL,
 			'00D2w000007sss8',
-			'Chat_with_Customers',
+			'Sellkorea_Chat_Group',
 			{
 				baseLiveAgentContentURL: 'https://c.la2-c2-ukb.salesforceliveagent.com/content',
 				deploymentId: '5722w00000014Mb',
-				buttonId: '5732w0000005BUo',
+				buttonId: '5732w0000005BJy',
 				baseLiveAgentURL: 'https://d.la2-c2-ukb.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Chat_with_Customers',
-				isOfflineSupportEnabled: true
+				eswLiveAgentDevName: 'Sellkorea_Chat_Group',
+				isOfflineSupportEnabled: false
 			}
 		);
 	};
