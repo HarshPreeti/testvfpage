@@ -46,7 +46,7 @@
 				buttonId: '5732w0000005BJy',
 				baseLiveAgentURL: 'https://d.la2-c2-ukb.salesforceliveagent.com/chat',
 				eswLiveAgentDevName: 'Sellkorea_Chat_Group',
-				isOfflineSupportEnabled: false
+				isOfflineSupportEnabled: true
 			}
 		);
 	};
@@ -62,4 +62,5 @@
 		initESW('https://service.force.com');
 	}
 </script>
+</BODY>
 </HTML>
